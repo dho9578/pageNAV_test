@@ -2,10 +2,12 @@ body{
     padding: 0;
 }
 
-/* 페이지  이동 버튼 숨기기 */
+/*
+페이지  이동 버튼 숨기기
 #page_move {
     display: none;
 }
+*/
 
 /* 설명 부분 */
 h1{
