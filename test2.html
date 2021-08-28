@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>팀 혜안 QR prototype</title>
+        <link rel="stylesheet" href="style.css">
+        <script>
+            /* 버튼 클릭 시 오디오 재생 */
+            function play(){
+                var audio = document.getElementById("audio");
+                audio.play();
+            }
+        </script>
+        <script>
+            /* 브라우저 닫기 기능 */
+            function WinClose(){
+                window.open('','_self').close();
+            }
+        </script>
+        
+    </head>
+
+    <body>
+        
+        <!-- 두번째 줄 -->
+        <section data-role="page" id="second_page">
+
+            <button id="audio_btn" type="button" href="audio_test1"
+            class="btn btn-sm btn-outline-primary" value="PLAY" onclick="play()">재생</button>
+            
+            <audio id="audio" src="audio_test1.mp3"></audio>
+
+            <button id="WinClose_btn" type="button" onclick="WinClose();">나가기</button>
+
+            <h1><br>화면 중앙 재생을 터치하면 제품명을 읽어드립니다.<br><br>나가기를 희망하면 화면 하단을 눌러주세요.</h1>
+        
+        <!-- 페이지 이동 버튼 -->        
+            <button id="page_move" type="button" onclick="location.href='test.html'">1</button>
+            <button id="page_move" type="button" onclick="location.href='test2.html'">2</button>
+            <button id="page_move" type="button" onclick="location.href='test3.html'">3</button>
+        </section>
+
+    </body>
+</html>
