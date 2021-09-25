@@ -37,7 +37,7 @@ h1{
     font-weight: bold;
     border-radius: 2.5rem;
     position: absolute;
-    top: 45%;
+    top: 47%;
     left: 50%;
     transform: translate(-50%, -50%);
     transition:0.3s;
@@ -64,7 +64,7 @@ h1{
     font-weight: bold;
     border-radius: 2rem;
     position: absolute;
-    top: 82%;
+    top: 84%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
